@@ -1,0 +1,17 @@
+#Queue
+queue:
+  name: rabbit-queue
+
+#Application host
+server:
+  port: 8081
+
+#RabbitMQ Host
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    password: guest
+    port: 5672
+    username: guest
+    virtual-host: job
+    virtual-host-job: job
